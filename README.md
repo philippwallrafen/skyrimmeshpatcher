@@ -4,7 +4,7 @@ using .NET 8
 
 run with 'dotnet run' - will patch all files in input and save to output
 
-additional options are:
+additional options are:  
 --in  
 --out  
 --verify  
