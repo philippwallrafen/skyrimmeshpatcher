@@ -1,6 +1,6 @@
 # README
 
-using .NET 8
+using .NET 8 ([NiflySharp](https://github.com/ousnius/NiflySharp) under the hood)
 
 run with 'dotnet run' - will patch all files in input and save to output
 
