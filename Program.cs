@@ -11,7 +11,7 @@ namespace SkyrimMeshPatcher
 {
     internal static class Program
     {
-        // Patch values (your recipe)
+        // Patch values
         private const float TargetSequenceStopTime = 0.002f;
         private const float TargetKeyTime = 0.001f;
 
