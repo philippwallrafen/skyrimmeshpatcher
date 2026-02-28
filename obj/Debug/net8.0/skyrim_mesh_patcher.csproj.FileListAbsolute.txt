@@ -16,3 +16,4 @@ C:\Users\Philipp\Documents\1\coding\skyrim_mesh_patcher\obj\Debug\net8.0\refint\
 C:\Users\Philipp\Documents\1\coding\skyrim_mesh_patcher\obj\Debug\net8.0\skyrim_mesh_patcher.pdb
 C:\Users\Philipp\Documents\1\coding\skyrim_mesh_patcher\obj\Debug\net8.0\skyrim_mesh_patcher.genruntimeconfig.cache
 C:\Users\Philipp\Documents\1\coding\skyrim_mesh_patcher\obj\Debug\net8.0\ref\skyrim_mesh_patcher.dll
+C:\Users\Philipp\Documents\1\coding\skyrim_mesh_patcher\obj\Debug\net8.0\skyrim_mesh_patcher.sourcelink.json

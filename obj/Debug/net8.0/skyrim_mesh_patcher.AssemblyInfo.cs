@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("skyrim_mesh_patcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1df323f8078bd00f96636ebc850f1a54d8f8602a")]
 [assembly: System.Reflection.AssemblyProductAttribute("skyrim_mesh_patcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("skyrim_mesh_patcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
