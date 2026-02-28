@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "miniball-devel0/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/miniball.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/miniball.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nifly/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "miniball-devel0": "1.0.4"
+        },
+        "compile": {
+          "lib/net8.0/NiflySharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NiflySharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "miniball-devel0/1.0.4": {
+      "sha512": "il9geqcXRha+LzhtE+dYQelxtlwgI6yTeq+fI5S7VSqC7y++XJNNzibm2tau9h0Ncw8cWz8ydD9WTg1QFnGziA==",
+      "type": "package",
+      "path": "miniball-devel0/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net7.0/miniball.dll",
+        "lib/net7.0/miniball.xml",
+        "miniball-devel0.1.0.4.nupkg.sha512",
+        "miniball-devel0.nuspec"
+      ]
+    },
+    "Nifly/1.0.0": {
+      "sha512": "iLtUkneEcpCNB54JkQXMRjLmeclKZcMwJLDnZKXsrlK1jOPPOzsA65WqEC2sSQaz24xq5Ooy1Wa64nSWymxj8Q==",
+      "type": "package",
+      "path": "nifly/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net8.0/NiflySharp.dll",
+        "lib/net8.0/NiflySharp.xml",
+        "nifly.1.0.0.nupkg.sha512",
+        "nifly.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Nifly >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Philipp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Philipp\\Documents\\1\\coding\\skyrim_mesh_patcher\\skyrim_mesh_patcher.csproj",
+      "projectName": "skyrim_mesh_patcher",
+      "projectPath": "C:\\Users\\Philipp\\Documents\\1\\coding\\skyrim_mesh_patcher\\skyrim_mesh_patcher.csproj",
+      "packagesPath": "C:\\Users\\Philipp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Philipp\\Documents\\1\\coding\\skyrim_mesh_patcher\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Philipp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Nifly": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

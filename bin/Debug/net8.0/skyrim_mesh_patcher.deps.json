@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "skyrim_mesh_patcher/1.0.0": {
+        "dependencies": {
+          "Nifly": "1.0.0"
+        },
+        "runtime": {
+          "skyrim_mesh_patcher.dll": {}
+        }
+      },
+      "miniball-devel0/1.0.4": {
+        "runtime": {
+          "lib/net7.0/miniball.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Nifly/1.0.0": {
+        "dependencies": {
+          "miniball-devel0": "1.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/NiflySharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "skyrim_mesh_patcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "miniball-devel0/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-il9geqcXRha+LzhtE+dYQelxtlwgI6yTeq+fI5S7VSqC7y++XJNNzibm2tau9h0Ncw8cWz8ydD9WTg1QFnGziA==",
+      "path": "miniball-devel0/1.0.4",
+      "hashPath": "miniball-devel0.1.0.4.nupkg.sha512"
+    },
+    "Nifly/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iLtUkneEcpCNB54JkQXMRjLmeclKZcMwJLDnZKXsrlK1jOPPOzsA65WqEC2sSQaz24xq5Ooy1Wa64nSWymxj8Q==",
+      "path": "nifly/1.0.0",
+      "hashPath": "nifly.1.0.0.nupkg.sha512"
+    }
+  }
+}
